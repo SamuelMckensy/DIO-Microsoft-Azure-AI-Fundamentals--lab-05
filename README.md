@@ -1,6 +1,3 @@
-<p align="center">
-    <img  src="../imagens/00_Logo_Bootccamp.jpeg" width="1000"/>  
-</p>
 
 <h1 align="center">
     <a href="https://www.dio.me/">
@@ -43,9 +40,9 @@ Faça login no Microsoft Copilot
 ## Use prompts para gerar respostas
 
 1.	Digite um prompt: Quais são os três prós e contras de viajar no inverno? . Você verá Searching for:… e Generating… aparecer antes da resposta. O modelo usa as respostas pesquisadas como informação de base para gerar respostas originais. Observe que o final da resposta contém links para suas fontes.
-<p align="center">
-    <img  src="../imagens/05_01.png" width="100%"/> 
-</p>
+
+    ![05_01](https://github.com/SamuelMckensy/DIO-Microsoft-Azure-AI-Fundamentals--lab-05/assets/138621764/03660cd9-834d-4fbf-aa9b-38e57dc5c9e2)
+
 
 Nota : Se você não vir uma mensagem *Generating… ou uma resposta de lista com marcadores, você ainda não conseguiu ver o Copilot em ação. Você precisa retornar ao menu de login e conectar a conta atual que está usando com uma conta pessoal.
 1.	Digite um prompt: Encontre mais 3 profissionais . O que você quer dizer com esta mensagem é que gostaria de ver mais três motivos positivos para viajar no inverno que ainda não foram listados. Observe que, com esse prompt, você está solicitando ao Copilot que faça duas coisas que a pesquisa por si só não faz: usar a resposta do chat anterior para excluir o que é retornado na nova resposta e usar o tópico do chat anterior sem declará-lo explicitamente.
@@ -56,9 +53,10 @@ Observação: observe que, embora o Copilot seja capaz de fornecer uma resposta 
 ## Experimente a geração de imagens
 
 1.	Agora vamos ver um exemplo de geração de imagens. Digite um prompt: Crie a imagem de um elefante comendo um hambúrguer . Observe que uma mensagem que tentarei criar que… aparece antes que o Copilot retorne uma resposta.
-<p align="center">
-    <img  src="../imagens/05_02.png" width="100%"/> 
-</p>
+
+    ![05_02](https://github.com/SamuelMckensy/DIO-Microsoft-Azure-AI-Fundamentals--lab-05/assets/138621764/f2e56650-5884-4fbf-8742-1a79db97cf45)
+
+
 
 É importante notar que a resposta pode parecer semelhante, mas não igual. Isso ocorre porque as respostas são variadas.
 2.	Na resposta, há um texto na parte inferior que diz “Powered by DALL-E”. Considere como o DALL-E é baseado em grandes modelos de linguagem, à medida que sua entrada de linguagem natural gera imagens.
@@ -101,9 +99,10 @@ Antes de poder utilizar modelos Azure OpenAI, deve fornecer um recurso Azure Ope
 Você pode implantar, gerenciar e explorar modelos no serviço Azure OpenAI usando o Azure OpenAI Studio.
 1.	Na página Visão Geral do seu recurso Azure OpenAI, utilize o botão Explorar para abrir o Azure OpenAI Studio num novo separador do navegador. Como alternativa, navegue diretamente até o Azure OpenAI Studio .
 Ao abrir o Azure OpenAI Studio pela primeira vez, ele deverá ser semelhante a este:
-<p align="center">
-    <img  src="../imagens/05_03.png" width="100%"/> 
-</p>
+
+   ![05_03](https://github.com/SamuelMckensy/DIO-Microsoft-Azure-AI-Fundamentals--lab-05/assets/138621764/68db3905-6b29-4adf-b177-2de09ef3bce5)
+
+
 
 2.	Veja as páginas disponíveis no painel à esquerda. Você sempre pode retornar à página inicial no topo. Além disso, o OpenAI Studio oferece várias páginas onde você pode:
 - Experimente modelos em um playground.
@@ -114,9 +113,10 @@ Ao abrir o Azure OpenAI Studio pela primeira vez, ele deverá ser semelhante a e
 Para experimentar a geração de linguagem natural, primeiro você deve implantar um modelo.
 1.	Na página Modelos, veja os modelos disponíveis na sua instância de serviço Azure OpenAI.
 2.	Selecione qualquer um dos modelos gpt-35-turbo para os quais o status Implantável é Sim e selecione Implantar:
-<p align="center">
-    <img  src="../imagens/05_04.png" width="100%"/> 
-</p>
+
+     ![05_04](https://github.com/SamuelMckensy/DIO-Microsoft-Azure-AI-Fundamentals--lab-05/assets/138621764/d5cfe98f-cfeb-46ac-88ed-7f0e8a0d3372)
+
+
 
 3.	Crie uma nova implantação com as seguintes configurações:
 - Modelo: gpt-35-turbo
@@ -128,9 +128,9 @@ Para experimentar a geração de linguagem natural, primeiro você deve implanta
 Agora que implementou um modelo, você pode usá-lo no playground do Chat para gerar saída em linguagem natural a partir de prompts enviados em uma interface de chat.
 1.	No Azure OpenAI Studio , navegue até o playground do Chat no painel esquerdo.
 O playground do Chat fornece uma interface de chatbot com a qual você pode interagir com seu modelo implantado, conforme mostrado aqui:
-<p align="center">
-    <img  src="../imagens/05_05.png" width="100%"/> 
-</p>
+
+   ![05_05](https://github.com/SamuelMckensy/DIO-Microsoft-Azure-AI-Fundamentals--lab-05/assets/138621764/97b5e258-9c06-46fd-a528-0319c9551093)
+
 
 2.	No painel Configuração, certifique-se de que a implantação do seu modelo esteja selecionada.
 3.	No painel de configuração do Assistente, selecione o modelo de mensagem do sistema padrão e visualize a mensagem do sistema que esse modelo cria. A mensagem do sistema define como o modelo se comportará na sua sessão de chat.
@@ -155,9 +155,10 @@ Um robô comendo espaguete
 ```
 
 3.	Selecione Gerar e visualizar os resultados, que devem consistir em uma imagem baseada na descrição fornecida no prompt, semelhante a esta:
-<p align="center">
-    <img  src="../imagens/05_06.png" width="100%"/> 
-</p>
+
+  ![05_06](https://github.com/SamuelMckensy/DIO-Microsoft-Azure-AI-Fundamentals--lab-05/assets/138621764/58a501cd-d091-4e76-9c25-4b4d7ab33c23)
+
+
 
 4.	Gere uma segunda imagem modificando o prompt para:
 
@@ -166,9 +167,10 @@ Um robô comendo espaguete no estilo de Rembrandt
 ```
 
 5.	Verifique se a nova imagem atende aos requisitos do prompt, semelhante a este:
-<p align="center">
-    <img  src="../imagens/05_07.png" width="100%"/> 
-</p>
+
+   ![05_07](https://github.com/SamuelMckensy/DIO-Microsoft-Azure-AI-Fundamentals--lab-05/assets/138621764/ea8cac97-5694-4ca0-91f5-599440b81310)
+
+
 
 ## Explore filtros de conteúdo no Azure OpenAI
 
@@ -255,62 +257,45 @@ Dica : para obter mais detalhes sobre as categorias e os níveis de gravidade us
 Se não pretende fazer mais exercícios, exclua todos os recursos que não precisa mais. Esse evita acumulando qualquer desnecessário custos .
 
 1. Acesse a página do portal e clique para abrir o menu lateral esquerdo:
-<p align="center">
-    <img  src="../imagens/01_41_Limpar_Menu.png" width="60%"/> 
-    <br>
-</p> 
+
+   ![01_41_Limpar_Menu](https://github.com/SamuelMckensy/DIO-Microsoft-Azure-AI-Fundamentals--lab-05/assets/138621764/cc923cdd-39a9-49b9-8c1c-00599c331bb2)
+
+ 
 
 2. Clique em "Resource Groups":
-<p align="center">
-    <img  src="../imagens/01_42_Limpar_Menu_Grupo.png" width="30%"/> 
-    <br>
-</p> 
+
+    ![01_42_Limpar_Menu_Grupo](https://github.com/SamuelMckensy/DIO-Microsoft-Azure-AI-Fundamentals--lab-05/assets/138621764/5fb3319b-048b-49dd-8f29-33e3ae4a8e9c)
+
+
 
 3. Selecione o grupo que deseja deletar:
-<p align="center">
-    <img  src="../imagens/01_43_Limpar_Select_Grupo.png" width="100%"/> 
-    <br>
-</p> 
+
+    ![01_43_Limpar_Select_Grupo](https://github.com/SamuelMckensy/DIO-Microsoft-Azure-AI-Fundamentals--lab-05/assets/138621764/04437a06-24a2-4eb9-96cd-ccad16c2c9cc)
+
+
 
 4. No ambiente do recurso referido, clique em "Delete resource group":
-<p align="center">
-    <img  src="../imagens/01_44_Limpar_Delete_Grupo.png" width="100%"/> 
-    <br>
-</p> 
+
+     ![01_44_Limpar_Delete_Grupo](https://github.com/SamuelMckensy/DIO-Microsoft-Azure-AI-Fundamentals--lab-05/assets/138621764/3c2d0bcb-d874-4720-97a9-eab11d920e56)
+
+ 
 
 5. Confirme as informações, informe o nome do recurso no campo abaixo e clique em delete:
-<p align="center">
-    <img  src="../imagens/01_45_Limpar_Modal.png" width="50%"/> 
-    <br>
-</p> 
+
+    ![01_45_Limpar_Modal](https://github.com/SamuelMckensy/DIO-Microsoft-Azure-AI-Fundamentals--lab-05/assets/138621764/aaf3ff81-36a8-437e-8dd2-00b14b59c07e)
+
+
 
 6. Confirme a exclusão:
 
-<p align="center">
-    <img  src="../imagens/01_46_Limpar_Modal_Confirma.png" width="40%"/> 
-    <br>
-</p> 
+   ![01_46_Limpar_Modal_Confirma](https://github.com/SamuelMckensy/DIO-Microsoft-Azure-AI-Fundamentals--lab-05/assets/138621764/3cb96bd5-f62f-4d18-9f48-ac0f93f54d1a)
+
 
 Obs.: A exclusão pode demorar um pouco para acontecer. Aguarde um pouco e confira que o recurso foi excluído dando um refresh (F5) na página para que a lista de grupos de recursos seja atualizada.
 
 
-## Não encontrou sua resposta aqui? Tente esses repositórios...
 
-### Repos Auxiliares
-- [giselle-ferreira](https://github.com/giselle-ferreira/dio-microsoft-azure-ai-fundamentals/tree/main/Labotat%C3%B3rio%205%20-%20IA%20Generativa)
-- [alexklenio](https://github.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP05%20-%20Explorando%20os%20Recursos%20de%20IA%20Generativa)
-- [miguelfmds](https://github.com/miguelfmds/bootcamp-microsoft-azure-ai-fundamentals/tree/main/LAB05%20-%20IA%20Generativa)
-- [wvdomingos](https://github.com/wvdomingos/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP05%20-%20Explorando%20os%20Recursos%20de%20IA%20Generativa)
-- [michaelssilva](https://github.com/michaelssilva/Bootcamp-DIO-AI-900/tree/main/Desafio%205)
-- [casjunior93](https://github.com/casjunior93/Projeto-DIO---Explorando-os-Recursos-de-IA-Generativa-com-Copilot-e-OpenAI)
 
-## 📜 License
-
-O projeto publicado em 2024 sobre a licença [MIT](./LICENSE) ❤️ 
-
-Made with ❤️ by Shyoutarou
-
-Gostou? Deixe uma estrelinha para ajudar o projeto ⭐
 
 
 
